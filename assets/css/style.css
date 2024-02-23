@@ -93,13 +93,21 @@ body {
   justify-content: space-evenly;
 }
 
-.beginner-resource, .beginner-video{
+.beginner-resource {
   background-color: rgb(128, 148, 179);
   max-width: 250px;
   margin: 2em;
   display: block;
-  
 }
+
+.beginner-video{
+  background-color: rgb(128, 148, 179);
+  max-width: 250px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+}
+
 
 #beginner-resource-img1, #beginner-resource-img2 {
   width: 100%;
