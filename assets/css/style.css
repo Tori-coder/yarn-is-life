@@ -11,6 +11,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #4E5453;
+    width: 100vw;
+}
+
+section {
+  width: 100%;
 }
 
 /* style header */
@@ -72,6 +77,35 @@ body {
   #hero-text {
     
   }
+
+/* style learn to crochet section */
+
+#learn-to-crochet-container {
+  margin: 1em;
+}
+
+.learn-resources-text {
+  padding: 10px;
+}
+
+.beginner-resources-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.beginner-resource {
+  max-width: 250px;
+  margin: 2em;
+  display: block;
+  
+}
+
+#beginner-resource-img1, #beginner-resource-img2 {
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
 
 
 /* Increase header font size for tablets portrait */
