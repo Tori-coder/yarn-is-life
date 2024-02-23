@@ -40,6 +40,16 @@ body {
     text-align: left;
   }
 
+/* style hero section */
+
+#hero {
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+
 /* Increase header font size for tablets portrait */
 @media (min-width: 481px) {
     #header-navbar {
