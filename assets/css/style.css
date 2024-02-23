@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-/*override default link colour*/
+/*override default link colour and underline*/
 a {
     color: black;
+    text-decoration: none;
 }
 
 /*set page default font and font colour*/
@@ -16,16 +17,36 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul {
+/* style header */
+
+#header-navbar {
+    font-size: 10px;
+}
+#header-navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
-
-li {
+#header-navbar li {
     flex: 1;
     text-align: center;
     margin: 15px;
 }
+
+
+/* Increase header font size for tablets */
+@media (min-width: 768px) {
+    #header-navbar {
+      font-size: 120%;
+    }
+  }
+  
+  /* Increase header font size for desktop screens */
+  @media (min-width: 1024px) {
+    #header-navbar {
+      font-size: 140%;
+    }
+  }
+
