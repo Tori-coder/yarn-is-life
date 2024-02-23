@@ -102,17 +102,30 @@ body {
 
 .beginner-video{
   background-color: rgb(128, 148, 179);
-  max-width: 250px;
+  max-width: 300px;
   margin-top: 2em;
   margin-bottom: 2em;
   display: block;
 }
 
-
 #beginner-resource-img1, #beginner-resource-img2 {
   width: 100%;
   display: block;
   justify-content: center;
+}
+
+.youtube-iframe-and-text {
+  overflow: hidden;
+  padding-top: 43%; /* aspect ratio not quite right but close */
+  position: relative;
+} 
+
+.youtube-iframe-and-text iframe {
+  position: absolute;
+  top: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
