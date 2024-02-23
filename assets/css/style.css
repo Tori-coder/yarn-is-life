@@ -81,20 +81,24 @@ section {
 /* style learn to crochet section */
 
 #learn-to-crochet-container {
+  background-color: aqua;
   margin: 1em;
 }
 
 .learn-resources-text {
+  background-color: pink;
   padding: 10px;
 }
 
 .beginner-resources-container {
+  background-color: rgb(193, 148, 197);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.beginner-resource {
+.beginner-resource, .beginner-video{
+  background-color: rgb(128, 148, 179);
   max-width: 250px;
   margin: 2em;
   display: block;
