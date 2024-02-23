@@ -128,6 +128,39 @@ body {
   height: 100%;
 }
 
+/* style latest projects section */
+
+#latest-projects-container {
+  background-color: aqua;
+}
+
+.latest-projects-text {
+  margin: 1em;
+  background-color: pink;
+  padding: 10px;
+}
+
+.projects-container {
+  margin: 1em;
+  background-color: rgb(193, 148, 197);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project {
+  background-color: rgb(128, 148, 179);
+  max-width: 250px;
+  margin: 2em;
+  display: block;
+}
+
+#project-img1, #project-img2 {
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
 
 /* Increase header font size for tablets portrait */
 @media (min-width: 481px) {
