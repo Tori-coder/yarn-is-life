@@ -33,7 +33,42 @@
         </div>
     </header>
     <main>
-
+        <section id="crochet-club">
+            <div>Write about the crochet club and times</div>
+            <div class="club-form-container">
+                <h2>Join our crochet club!</h2>
+                <form id="join-club-form" action="https://formdump.codeinstitute.net" method="post">
+                <!--use fieldset
+                <fieldset id="signup-details">
+                <legend>Sign up for all the fun!</legend>
+                -->
+                    <label for="first-name">First Name</label>
+                   <input type="text" name="first-name" id="first-name" class="text-input" placeholder="" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" class="text-input" placeholder="" required>
+                    <br>
+                    <label for="email">Email</label> 
+                    <input type="email" name="email" id="email" class="text-input" placeholder="crochet@yarnislife.com" required>
+                    <br>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" name="phone-number" id="phone-number" class="text-input">
+                    <br>
+                    <br>
+                    <textarea name="about" id="about" class="text-input" placeholder="Tell us a little about yourself" cols="27" rows="5"></textarea>
+                    <br>
+                    <div>What are you interested in?</div>
+                    <label for="crochet">crochet</label>
+                    <input type="checkbox" name="crochet" id="crochet">
+                    <br>
+                    <label for="knitting">knitting</label>
+                    <input type="checkbox" name="knitting" id="knitting">
+                    <br>
+                    <button type="submit">Let's crochet!</button>
+                    <!--end fieldset </fieldset>-->
+                </form>
+            </div>
+        </section>
     </main>    
     <footer>
         <div id="footer-social">
