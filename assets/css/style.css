@@ -1,0 +1,31 @@
+/*override browser default styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*override default link colour*/
+a {
+    color: black;
+}
+
+/*set page default font and font colour*/
+body {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    margin: 15px;
+}
