@@ -5,31 +5,40 @@
     box-sizing: border-box;
 }
 
-/*override default link colour and underline*/
-a {
-    color: black;
-    text-decoration: none;
-}
+
 
 /*set page default font and font colour*/
 body {
-    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4E5453;
 }
 
 /* style header */
 
-#header-navbar {
-    font-size: 10px;
+#header-navbar, #footer-social {
+  font-size: 14px;
+  background-color: #C3D4CA;
+  color: #4E5453;
 }
-#header-navbar ul {
+
+/*override default link colour and underline*/
+#header-navbar a, #footer-social a {
+  color: #4E5453;
+  text-decoration: none;
+}
+
+#header-navbar {
+  padding: 0.5em 0;
+}
+
+#header-navbar ul, #footer-social ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
-#header-navbar li {
+#header-navbar li, #footer-social li {
     flex: 1;
     text-align: center;
     margin: 13px;
