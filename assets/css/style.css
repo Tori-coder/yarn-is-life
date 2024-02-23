@@ -32,14 +32,25 @@ body {
 #header-navbar li {
     flex: 1;
     text-align: center;
-    margin: 15px;
+    margin: 13px;
 }
 
+#header-navbar #header-logo {
+    order: -1; /* move title to the beginning */
+    text-align: left;
+  }
 
+/* Increase header font size for tablets portrait */
+@media (min-width: 481px) {
+    #header-navbar {
+      font-size: 120%;
+    }
+  }  
+  /* Increase header font size for tablets landscape */
 /* Increase header font size for tablets */
 @media (min-width: 768px) {
     #header-navbar {
-      font-size: 120%;
+      font-size: 130%;
     }
   }
   
