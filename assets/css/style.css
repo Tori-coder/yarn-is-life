@@ -157,10 +157,43 @@ body {
 
 #project-img1, #project-img2 {
   width: 100%;
-  display: block;
-  justify-content: center;
+  display: block;  
 }
 
+
+/* style patterns page */
+
+#patterns-container {
+  background-color: aqua;
+}
+
+.patterns-text {
+  margin: 1em;
+  background-color: pink;
+  padding: 10px;
+}
+
+
+
+.pattern-container {
+  margin: 1em;
+  background-color: rgb(193, 148, 197);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pattern {
+  background-color: rgb(128, 148, 179);
+  max-width: 250px;
+  margin: 2em;
+  display: block;
+}
+
+#pattern-img1, #pattern-img2 {
+  width: 100%;
+  display: block;
+}
 
 /* Increase header font size for tablets portrait */
 @media (min-width: 481px) {
