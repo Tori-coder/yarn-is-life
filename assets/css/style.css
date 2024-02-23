@@ -44,10 +44,25 @@ body {
 
 #hero {
     width: 100%;
-    height: 600px;
+    position: relative;
   }
 
+  #hero img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
 
+  #hero-text-container {
+    position: absolute; 
+    top: 40%; 
+    left: 36%; 
+    right: 20%;
+  }
+  
+  #hero-text {
+    
+  }
 
 
 /* Increase header font size for tablets portrait */
