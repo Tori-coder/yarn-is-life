@@ -75,11 +75,19 @@ section {
     left: 33%; 
     right: 20%;
     font-size: 10px;
+    width: 140px;
+    text-overflow: hidden;
   }
   
   #hero-text-title {
     font-size: 12px;
   }
+
+/*hide overflow text for smaller screens*/
+
+#hero-text-2, #hero-text-3 {
+  opacity: 0;
+}
 
 /* style learn to crochet section */
 
