@@ -76,7 +76,6 @@ section {
     right: 20%;
     font-size: 10px;
     width: 140px;
-    text-overflow: hidden;
   }
   
   #hero-text-title {
@@ -214,14 +213,45 @@ section {
       font-size: 120%;
     }
   }  
-  /* Increase header font size for tablets landscape */
+
+/* Increase hero text size for tablets portrait */
+@media (min-width: 481px) {
+    #hero-text-container {
+      width: 245px;
+      font-size: 12px;
+    }
+    #hero-text-title {
+      font-size: 14px;
+    } 
+    #hero-text-1, #hero-text-2, #hero-text-3 {
+      padding-top: 15px;
+    }
+  } 
+
 /* Increase header font size for tablets */
 @media (min-width: 768px) {
-    #header-navbar {
-      font-size: 130%;
-    }
+  #header-navbar {
+    font-size: 130%;
   }
-  
+}
+
+/* Increase header font size for tablets landscape */
+
+/* Increase hero text size and unhide text2 for tablets landscape */
+@media (min-width: 768px) {
+  #hero-text-container {
+    width: 400px;
+    font-size: 14px;
+  }
+  #hero-text-title {
+    font-size: 16px;
+  }  
+  #hero-text-1, #hero-text-2, #hero-text-3 {
+    padding-top: 15px;
+    opacity: 1;
+  }
+} 
+
   /* Increase header font size for desktop screens */
   @media (min-width: 1024px) {
     #header-navbar {
@@ -229,3 +259,17 @@ section {
     }
   }
 
+  /* Increase hero text size and unhide text2 for desktop screens */
+@media (min-width: 1024px) {
+  #hero-text-container {
+    width: 650px;
+    font-size: 20px;
+  }
+  #hero-text-title {
+    font-size: 26px;
+  }  
+  #hero-text-1, #hero-text-2, #hero-text-3 {
+    padding-top: 15px;
+    opacity: 1;
+  }
+} 
