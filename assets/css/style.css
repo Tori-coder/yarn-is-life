@@ -72,12 +72,13 @@ section {
   #hero-text-container {
     position: absolute; 
     top: 40%; 
-    left: 36%; 
+    left: 33%; 
     right: 20%;
+    font-size: 10px;
   }
   
-  #hero-text {
-    
+  #hero-text-title {
+    font-size: 12px;
   }
 
 /* style learn to crochet section */
