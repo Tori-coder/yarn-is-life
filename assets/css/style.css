@@ -212,6 +212,12 @@ section {
 
 /* style club page */
 
+#crochet-club {
+  background-color: #BCAE93;
+  border: 2px solid;
+  border-color: #9F8F82;
+}
+
 #times {
   display: flex;
   flex-wrap: wrap;
@@ -223,7 +229,8 @@ section {
   text-align: center;
   flex-basis: 200px;
   flex-grow: 1;
-  border: 2px solid white;
+  border: 2px solid;
+  border-color: antiquewhite;
 }
 
 #abs-beginners {
@@ -238,6 +245,22 @@ section {
 
 #stitchnbitch {
   background-image: url("../images/stichbitch1.jpg");
+}
+
+.club-form-container {
+  padding: 1em;
+  text-align: center;
+}
+
+#crochet-club h2 {
+  text-align: center;
+}
+
+input, textarea {
+  padding: 0.2em;
+  border-width: 1px;
+  border-style: none;
+  background-color: #D3C9C0;
 }
 
 /* Increase header font size for tablets portrait */
