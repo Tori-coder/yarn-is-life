@@ -210,6 +210,36 @@ section {
   display: block;
 }
 
+/* style club page */
+
+#times {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#times div {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid white;
+}
+
+#abs-beginners {
+  background-image: url("../images/beginners-meetup.jpg");
+}
+
+#amigurumi {
+  background-image: url("../images/amigurumi.jpg");
+  background-position: right center;
+  background-size: 100%;
+}
+
+#stitchnbitch {
+  background-image: url("../images/stichbitch1.jpg");
+}
+
 /* Increase header font size for tablets portrait */
 @media (min-width: 481px) {
     #header-navbar {
