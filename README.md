@@ -31,6 +31,22 @@ metrics badges here?
 * Potential future features
 
 ## UX
+### First Time Visitor Objectives
+
+* Instantly understand who and what the site is for
+* Be able to navigate the site easily
+* Be able to find information related to crochet
+
+## Returning Visitor Objectives
+
+* As first visitor objectives
+* See new information (latest projects) immediately on visiting the site
+* Be able to find up to date information about club meetings
+
+## Frequent Visitor Objectives
+
+* As first and returning visitor objectives
+* be able to submit own projects to be featured on the site
 
 ## TESTING
 * Bugs
