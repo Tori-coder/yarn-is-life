@@ -124,16 +124,19 @@ section {
   justify-content: space-evenly;
 }
 
-#about-me-text, #me-pic {
+#about-me-text {
   max-width: 270px;
   margin-top: 2em;
-  margin-bottom: 0;
+  margin-bottom: 2em;
   padding: 1em;
   display: block;
 }
 
 #me-pic {
-  margin-top: 1em;
+  max-width: 270px;
+  padding: 1em;
+  display: block;
+  align-self: center;
 }
 #me-pic img {
   max-width: 100%;
@@ -165,15 +168,10 @@ section {
   object-fit: cover;
 } */
 
-.learn-resources-text-title {
+.learn-resources-text {
+  background-color: #C3D4CA;
+  font-size: 1em;
   padding: 1em;
-  padding-bottom: 0;
-}
-
-.learn-resources-text-main {
-  font-size: 0.8em;
-  padding: 1em;
-  padding-left: 1.25em;
 }
 
 .beginner-resources-container {
@@ -228,7 +226,7 @@ section {
 
 .latest-projects-text {
   background-color: #C3D4CA;
-  font-size: 0.8em;
+  font-size: 1em;
   padding: 1em;
 }
 
@@ -354,6 +352,20 @@ input, textarea {
     }
   }  
 
+/* Increase header font size for tablets landscape*/
+@media (min-width: 768px) {
+  #header-navbar {
+    font-size: 130%;
+  }
+}
+
+/* Increase header font size for desktop screens */
+@media (min-width: 1024px) {
+  #header-navbar {
+    font-size: 140%;
+  }
+}
+
 /* Increase hero text size for tablets portrait */
 @media (min-width: 481px) {
     #hero-text-container {
@@ -368,23 +380,18 @@ input, textarea {
     }
   } 
 
-/* Increase header font size for tablets */
-@media (min-width: 768px) {
-  #header-navbar {
-    font-size: 130%;
-  }
-}
-
-/* Increase header font size for tablets landscape */
-
 /* Increase hero text size and unhide text2 for tablets landscape */
 @media (min-width: 768px) {
   #hero-text-container {
+    left: 29%;
     width: 400px;
     font-size: 14px;
   }
   #hero-text-title {
-    font-size: 16px;
+    top: 41%;
+    left: 31%;
+    font-size: 20px;
+    max-width: 120px;
   }  
   #hero-text-1, #hero-text-2, #hero-text-3 {
     padding-top: 15px;
@@ -392,20 +399,15 @@ input, textarea {
   }
 } 
 
-  /* Increase header font size for desktop screens */
-  @media (min-width: 1024px) {
-    #header-navbar {
-      font-size: 140%;
-    }
-  }
-
-  /* Increase hero text size and unhide text2 for desktop screens */
+/* Increase hero text size and unhide text2 for smaller desktop screens */
 @media (min-width: 1024px) {
   #hero-text-container {
+    left: 28%;
     width: 650px;
     font-size: 20px;
   }
   #hero-text-title {
+    max-width: 150px;
     font-size: 26px;
   }  
   #hero-text-1, #hero-text-2, #hero-text-3 {
@@ -413,3 +415,51 @@ input, textarea {
     opacity: 1;
   }
 } 
+
+/* Increase hero text size and unhide text2 for larger desktop screens */
+@media (min-width: 1200px) {
+  #hero-text-container {
+    top: 47%;
+    left: 31%;
+    width: 650px;
+    font-size: 20px;
+  }
+  #hero-text-title {
+    max-width: 150px;
+    font-size: 28px;
+  }  
+  #hero-text-1, #hero-text-2, #hero-text-3 {
+    padding-top: 15px;
+    opacity: 1;
+  }
+}
+
+/* Increase aboutme font size for tablets portrait */
+@media (min-width: 481px) {
+  #about-me-text {
+    max-width: 300px;
+    font-size: 12px;
+  }
+}  
+
+/* Increase aboutme font size for tablets landscape*/
+@media (min-width: 768px) {
+  #about-me-text {
+    max-width: 350px;
+  font-size: 14px;
+}
+}
+
+/* Increase aboutme font size for desktop screens */
+@media (min-width: 1024px) {
+  #about-me-text {
+  max-width: 400px;
+  font-size: 20px;
+}
+  #me-pic {
+    max-width: 400px;
+  }
+  #about-me-title {
+    font-size: 20px;
+  }
+}
