@@ -5,7 +5,18 @@
     box-sizing: border-box;
 }
 
+h1 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 14px;
+}
 
+/* define brittanysignature font */
+@font-face {
+  font-family: brittanysignature;
+  src: url(../fonts/BrittanySignature.ttf);
+}
 
 /*set page default font and font colour*/
 body {
@@ -21,7 +32,7 @@ section {
 /* style header */
 
 #header-navbar, #footer-social {
-  font-size: 14px;
+  font-size: 16px;
   background-color: #C3D4CA;
   color: #4E5453;
 }
@@ -33,7 +44,7 @@ section {
 }
 
 #header-navbar {
-  padding: 0.5em 0;
+  padding: 0.2em 0;
 }
 
 #header-navbar ul, #footer-social ul {
@@ -46,13 +57,19 @@ section {
 #header-navbar li, #footer-social li {
     flex: 1;
     text-align: center;
-    margin: 13px;
+    margin: 10px;
 }
 
 #header-navbar #header-logo {
     order: -1; /* move title to the beginning */
     text-align: left;
+    font-family: BrittanySignature;
+    font-size: 18px;
+  transform: rotate(357deg);
+  font-weight: bolder;
+  flex-grow: 2;
   }
+
 
 /* style hero section */
 
@@ -69,23 +86,73 @@ section {
     display: block; 
   }
 
+  #hero-text-title {
+    position: absolute; 
+    top: 39%; 
+    left: 31%; 
+    right: 20%;
+    max-width: 80px;
+    font-family: brittanysignature;
+    font-size: 14px;
+    font-weight: bolder;
+    transform: rotate(350deg);
+  }
+
   #hero-text-container {
     position: absolute; 
-    top: 40%; 
+    top: 50%; 
     left: 33%; 
-    right: 20%;
-    font-size: 10px;
-    width: 140px;
+    right: 17%;
+    font-size: 12px;
+    width: 160px;
   }
   
-  #hero-text-title {
-    font-size: 12px;
-  }
+
 
 /*hide overflow text for smaller screens*/
 
 #hero-text-2, #hero-text-3 {
   opacity: 0;
+}
+
+/* style about me section */
+
+#about-me-container {
+  background-color: #E4C4A8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#about-me-text, #me-pic {
+  max-width: 270px;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding: 1em;
+  display: block;
+}
+
+#me-pic {
+  margin-top: 1em;
+}
+#me-pic img {
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+#about-me-title {
+  background-color: #C3D4CA;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 1em;
+}
+
+#about-me-text {
+  background-color: #DCE3DE;
+  font-size: 0.8em;
+  padding: 1em;
+  padding-left: 1.25em;
 }
 
 /* style learn to crochet section */
@@ -94,12 +161,19 @@ section {
   background-color: #C3D4CA;
 }
 
-#learn-to-crochet-container {
+/* #learn-to-crochet-container {
   object-fit: cover;
+} */
+
+.learn-resources-text-title {
+  padding: 1em;
+  padding-bottom: 0;
 }
 
-.learn-resources-text {
+.learn-resources-text-main {
+  font-size: 0.8em;
   padding: 1em;
+  padding-left: 1.25em;
 }
 
 .beginner-resources-container {
@@ -110,6 +184,7 @@ section {
 }
 
 .beginner-resource {
+  font-size: 0.8em;
   background-color: #DCE3DE;
   max-width: 250px;
   margin: 2em;
@@ -117,6 +192,7 @@ section {
 }
 
 .beginner-video{
+  font-size: 0.8em;
   background-color: #DCE3DE;
   max-width: 300px;
   margin-top: 2em;
@@ -152,6 +228,7 @@ section {
 
 .latest-projects-text {
   background-color: #C3D4CA;
+  font-size: 0.8em;
   padding: 1em;
 }
 
@@ -162,6 +239,7 @@ section {
 }
 
 .project {
+  font-size: 0.8em;
   background-color: #DCE3DE;
   max-width: 250px;
   margin: 2em;
