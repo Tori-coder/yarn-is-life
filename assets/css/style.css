@@ -90,32 +90,34 @@ section {
 
 /* style learn to crochet section */
 
+#learn-to-crochet {
+  background-color: #C3D4CA;
+}
+
 #learn-to-crochet-container {
-  background-color: aqua;
   object-fit: cover;
 }
 
 .learn-resources-text {
-  background-color: pink;
   padding: 1em;
 }
 
 .beginner-resources-container {
-  background-color: rgb(78, 191, 206);
+  background-color: #DCE3DE;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .beginner-resource {
-  background-color: rgb(60, 194, 154);
+  background-color: #DCE3DE;
   max-width: 250px;
   margin: 2em;
   display: block;
 }
 
 .beginner-video{
-  background-color: rgb(128, 148, 179);
+  background-color: #DCE3DE;
   max-width: 300px;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -145,42 +147,46 @@ section {
 /* style latest projects section */
 
 #latest-projects-container {
-  background-color: aqua;
+  background-color: #DCE3DE;
 }
 
 .latest-projects-text {
-  background-color: pink;
+  background-color: #C3D4CA;
   padding: 1em;
 }
 
 .projects-container {
-  background-color: rgb(78, 191, 206);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .project {
-  background-color: rgb(128, 148, 179);
+  background-color: #DCE3DE;
   max-width: 250px;
   margin: 2em;
   display: block;
 }
 
-#project-img1, #project-img2 {
+#project-img1, #project-img2, #project-img3 {
   width: 100%;
   display: block;  
+}
+
+#project-img3 {
+  width: 100%;
+  max-height: 300px;
 }
 
 
 /* style patterns page */
 
 #patterns-container {
-  background-color: aqua;
+  background-color: #DCE3DE;
 }
 
 .patterns-text {
-  background-color: pink;
+  background-color: #DCE3DE;
   padding: 20px;
 }
 
@@ -191,7 +197,7 @@ section {
 }
 
 #beginner-patterns, #intermediate-patterns {
-  background-color: rgb(193, 148, 197);
+  background-color: #DCE3DE;
 }
 
 .pattern-container-text {
@@ -199,7 +205,7 @@ section {
 }
 
 .pattern {
-  background-color: rgb(128, 148, 179);
+  background-color: #DCE3DE;
   max-width: 250px;
   margin: 2em;
   display: block;
