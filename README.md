@@ -20,7 +20,7 @@ metrics badges here?
 ## DESIGN
 ### Colour Choices
 The colours were based on the colour palette of the hero image, which was sourced from istock [here](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesanal-con-hilo-en-colores-naturales-gm1349994486-426293103)
-The remaining colours were picked from the hero image using the chrome extension [colorzilla[(https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) and by reference to [coolors.co]
+The remaining colours were picked from the hero image using the chrome extension [colorzilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) and by reference to [coolors.co]
 ### Fonts
 The main font of the site is xxx for accessibility.
 The Yarn Is Life logo has been styled using BrittanySignature, from xxx
