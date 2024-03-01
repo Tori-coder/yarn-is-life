@@ -288,9 +288,13 @@ section {
   display: block;
 }
 
-#pattern-img1, #pattern-img2 {
+#pattern-img1, #pattern-img2, #pattern-img3 {
   width: 100%;
   display: block;
+}
+
+.pattern-text {
+  text-align: center;
 }
 
 /* style club page */
