@@ -16,6 +16,7 @@ h2 {
 @font-face {
   font-family: brittanysignature;
   src: url(../fonts/BrittanySignature.ttf);
+  font-display: swap;
 }
 
 /*set page default font and font colour*/
@@ -61,11 +62,11 @@ section {
 }
 
 #header-navbar #header-logo {
-    order: -1; /* move title to the beginning */
+    order: -1; /* move logo to the beginning */
     text-align: left;
     font-family: BrittanySignature;
     font-size: 18px;
-  transform: rotate(357deg);
+  transform: rotate(358deg);
   font-weight: bolder;
   flex-grow: 2;
   }
@@ -320,13 +321,13 @@ section {
 }
 
 #amigurumi {
-  background-image: url("../images/amigurumi.jpg");
+  background-image: url("../images/amigurumi2.webp");
   background-position: right center;
   background-size: 100%;
 }
 
 #stitchnbitch {
-  background-image: url("../images/stichbitch1.jpg");
+  background-image: url("../images/stichbitch.webp");
 }
 
 .club-form-container {
