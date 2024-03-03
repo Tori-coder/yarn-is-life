@@ -303,8 +303,13 @@ section {
 
 #crochet-club {
   background-color: #BCAE93;
+  color: #1e2020;
   border: 2px solid;
   border-color: #9F8F82;
+}
+
+#crochet-club h2 {
+  font-size: 1.25rem;
 }
 
 #times {
@@ -313,6 +318,7 @@ section {
 }
 
 #times div {
+  color: #1e2020;
   margin: 15px;
   padding: 15px;
   text-align: center;
@@ -327,13 +333,13 @@ section {
 }
 
 #amigurumi {
-  background-image: url("../images/amigurumi2.webp");
+  background-image: url("../images/amigurumi.webp");
   background-position: right center;
   background-size: 100%;
 }
 
 #stitchnbitch {
-  background-image: url("../images/stichbitch.webp");
+  background-image: url("../images/stitchnbitch.webp");
 }
 
 .club-form-container {
@@ -343,6 +349,7 @@ section {
 
 #crochet-club h2 {
   text-align: center;
+  color: #1e2020;
 }
 
 input, textarea {
@@ -350,6 +357,16 @@ input, textarea {
   border-width: 1px;
   border-style: none;
   background-color: #D3C9C0;
+}
+
+button {
+  padding:5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4E5453;
+  border-radius: 4px;
+  background-color: #D3C9C0;
+  color: #1e2020;
 }
 
 /* Increase header font size for tablets portrait */
