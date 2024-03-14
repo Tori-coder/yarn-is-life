@@ -38,6 +38,8 @@ The bar is designed to be one line, no collapse (no hamburger menu) regardless o
 ### Hero Image
 The [hero image](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesanal-con-hilo-en-colores-naturales-gm1349994486-426293103) was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
 
+![Navigation Bar](assets/images/readme-imgs/hero-image-min.jpg)
+
 ### Contents
 
 **Home page**
