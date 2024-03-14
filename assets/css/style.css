@@ -64,8 +64,10 @@ section {
 #header-navbar #header-logo {
   order: -1; /* move logo to the beginning */
   text-align: left;
+  font-family: BrittanySignature;
+  font-size: 18px;
+  transform: rotate(358deg);
   font-weight: bolder;
-  font-size: 30px;
   flex-grow: 2;
   }
 
