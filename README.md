@@ -36,7 +36,7 @@ The bar is designed to be one line, no collapse (no hamburger menu) regardless o
 ![Navigation Bar](assets/images/readme-imgs/nav-bar.png)
 
 ### Hero Image
-The [hero image](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesanal-con-hilo-en-colores-naturales-gm1349994486-426293103) was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
+The hero image was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
 
 ![Navigation Bar](assets/images/readme-imgs/hero-image-min.jpg)
 
@@ -46,21 +46,15 @@ The [hero image](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesan
 
 The user is greeted with the hero image and hero text saying welcome to the site. On smaller screens the About Me section is also visible. The home page also contains a Learn to Crochet section and a Latest Projects section.
 
-![Home Page]()
-
 **Club Page**
 
 The club page includes locations and times of the crochet club meetups.
 There is also a form to join the mailing list to be informed of future club events.
 
-![Club page]()
-
 **Patterns Page**
 
 This page includes live links to patterns available on other crochet pages. Links open in a new tab.
 Patterns are divided into Beginner, Intermediate and Advanced sections for easy navigation.
-
-![Patterns page]()
 
 ### Footer
 
@@ -71,7 +65,7 @@ The footer contains icons for facebook, twitter xxx, youtube and instagram. The 
 ### Potential Future Features
 
 It would be nice to add a third UX feature: Frequent Visitor Objectives - be able to submit own projects to be featured on the site.
-Work has begun on a "learn to crochet" page featuring original learn-to-crochet instructions and images, not linking to any external sites.
+Work has begun on a "learn to crochet" page featuring original learn-to-crochet instructions and images, not linking to any external sites. It will need to be styled and a link to it added in the header.
 
 ## UX
 
@@ -94,7 +88,7 @@ Hero image failed to load on first try. Html <img> element had href attribute in
 Latest projects section was unresponsive to screen size. Flexbox properties had been added to the wrong container div in html - fixed.
  
 ### Unfixed Bugs
-None
+There was originally a youtube video embedded using an iframe in index.html. There were several issues with sizing the iframe to fit its container, which were solved, and the video was correctly sized for all screen sizes and played correctly. However, on testing the iframe threw up multiple errors. It wasn't feasible to learn enough about all of these errors to overcome this in time for submission, so regretfully the video was removed and replaced with an image.
 
 ### Validation Testing
 

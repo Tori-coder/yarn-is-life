@@ -108,10 +108,7 @@ section {
     width: 160px;
   }
   
-
-
 /*hide overflow text for smaller screens*/
-
 #hero-text-2, #hero-text-3 {
   opacity: 0;
 }
@@ -167,9 +164,12 @@ section {
   background-color: #C3D4CA;
 }
 
-/* #learn-to-crochet-container {
-  object-fit: cover;
-} */
+#learn-resources-text-title {
+  background-color: #C3D4CA;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 1em;
+}
 
 .learn-resources-text {
   background-color: #C3D4CA;
@@ -290,7 +290,7 @@ section {
   display: block;
 }
 
-#pattern-img1, #pattern-img2, #pattern-img3 {
+.pattern-img1, .pattern-img2, .pattern-img3 {
   width: 100%;
   display: block;
 }
@@ -492,7 +492,7 @@ button {
   #me-pic {
     max-width: 400px;
   }
-  #about-me-title {
+  h2, #about-me h2, #learn-resources-text-title {
     font-size: 20px;
   }
 }
