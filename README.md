@@ -5,9 +5,7 @@ Yarn Is Life is a static website designed to introduce people to the art of croc
 
 Visit the live site [here](https://tori-coder.github.io/yarn-is-life/)
 
-Image of the finished site to go here.
-
-metrics badges here?
+![mock-up](assets/images/readme-imgs/mock-up.png)
 
 ## CONTENTS
 1. [Design](#design)
