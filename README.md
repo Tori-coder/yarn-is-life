@@ -18,14 +18,14 @@ Visit the live site [here](https://tori-coder.github.io/yarn-is-life/)
 
 ### Colour Choices
 The colours were based on the colour palette of the hero image, which was sourced from istock [here](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesanal-con-hilo-en-colores-naturales-gm1349994486-426293103)
-The remaining colours were picked from the hero image using the chrome extension [colorzilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) and by reference to [coolors.co](coolors.co)
+The remaining colours were picked from the hero image using the chrome extension [colorzilla](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp) and by reference to [coolors.co](https://coolors.co/)
 
 ### Fonts
-The main font of the site is xxx for accessibility.
-The Yarn Is Life logo has been styled using BrittanySignature, from xxx
+The main font of the site is Segoe UI for accessibility.
+The Yarn Is Life logo has been styled using BrittanySignature, from [befonts.com](https://befonts.com/brittany-signature-font.html)
 
 ### Images
-Images are sourced from [istock](https://www.istockphoto.com/) with the exception of the About Me picture and the Latest Projects images, which are property of Georgina Carey. xxx
+Images are sourced from [istock](https://www.istockphoto.com/) with the exception of the About Me picture and the Latest Projects images, which were taken by and are property of my daughter, Georgina Carey.
 
 ## FEATURES
 
