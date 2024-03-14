@@ -116,7 +116,7 @@ section {
 /* style about me section */
 
 #about-me-container {
-  background-color: #E5BF95;
+  background-color: #EDD1BC;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -378,29 +378,13 @@ button {
   accent-color: #4E5453;
 }
 
-/* Increase header font size for tablets portrait */
+/*increase font sizes for tablets portrait*/
 @media (min-width: 481px) {
+    /*header*/
     #header-navbar {
       font-size: 120%;
     }
-  }  
-
-/* Increase header font size for tablets landscape*/
-@media (min-width: 768px) {
-  #header-navbar {
-    font-size: 130%;
-  }
-}
-
-/* Increase header font size for desktop screens */
-@media (min-width: 1024px) {
-  #header-navbar {
-    font-size: 140%;
-  }
-}
-
-/* Increase hero text size for tablets portrait */
-@media (min-width: 481px) {
+    /*hero text size*/
     #hero-text-container {
       width: 245px;
       font-size: 12px;
@@ -411,10 +395,20 @@ button {
     #hero-text-1, #hero-text-2, #hero-text-3 {
       padding-top: 15px;
     }
-  } 
+    /*aboutme font size*/
+    #about-me-text {
+    max-width: 300px;
+    font-size: 12px;
+    }
+}  
 
-/* Increase hero text size and unhide text2 for tablets landscape */
+/* Increase font sizes for tablets landscape*/
 @media (min-width: 768px) {
+  /*header*/
+  #header-navbar {
+    font-size: 130%;
+  }
+/*hero text size and unhide text2*/
   #hero-text-container {
     left: 29%;
     width: 400px;
@@ -430,10 +424,21 @@ button {
     padding-top: 15px;
     opacity: 1;
   }
-} 
+/*aboutme font size*/
+  #about-me-text {
+    max-width: 350px;
+  font-size: 14px;
+  }
+}
 
-/* Increase hero text size and unhide text2 for smaller desktop screens */
+
+/* Increase font sizes for desktop screens */
 @media (min-width: 1024px) {
+  /*header*/
+  #header-navbar {
+    font-size: 140%;
+  }
+  /*hero text size and unhide text2 for smaller desktop screens*/
   #hero-text-container {
     left: 28%;
     width: 650px;
@@ -447,10 +452,7 @@ button {
     padding-top: 15px;
     opacity: 1;
   }
-} 
-
-/* Increase hero text size and unhide text2 for larger desktop screens */
-@media (min-width: 1200px) {
+  /*hero text size and unhide text2 for larger desktop screens*/
   #hero-text-container {
     top: 47%;
     left: 31%;
@@ -465,34 +467,15 @@ button {
     padding-top: 15px;
     opacity: 1;
   }
-}
-
-/* Increase aboutme font size for tablets portrait */
-@media (min-width: 481px) {
+  /*aboutme font size and aboutme image*/
   #about-me-text {
-    max-width: 300px;
-    font-size: 12px;
-  }
-}  
-
-/* Increase aboutme font size for tablets landscape*/
-@media (min-width: 768px) {
-  #about-me-text {
-    max-width: 350px;
-  font-size: 14px;
-}
-}
-
-/* Increase aboutme font size for desktop screens */
-@media (min-width: 1024px) {
-  #about-me-text {
-  max-width: 400px;
-  font-size: 20px;
-}
-  #me-pic {
     max-width: 400px;
-  }
-  h2, #about-me h2, #learn-resources-text-title {
     font-size: 20px;
   }
+    #me-pic {
+      max-width: 400px;
+    }
+    h2, #about-me h2, #learn-resources-text-title {
+      font-size: 20px;
+    }
 }
