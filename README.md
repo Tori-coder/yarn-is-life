@@ -33,7 +33,7 @@ Images are sourced from [istock](https://www.istockphoto.com/) with the exceptio
 The navigation bar is at the top of all pages. It consists of the Yarn Is Life logo and links to the Home, Club and Patterns pages.
 The bar is designed to be one line, no collapse (no hamburger menu) regardless of screen size.
 
-![Navigation Bar]()
+![Navigation Bar](assets/images/readme-imgs/nav-bar.png)
 
 ### Hero Image
 The [hero image](https://www.istockphoto.com/es/foto/fondo-de-pasatiempo-artesanal-con-hilo-en-colores-naturales-gm1349994486-426293103) was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
@@ -63,6 +63,8 @@ Patterns are divided into Beginner, Intermediate and Advanced sections for easy 
 ### Footer
 
 The footer contains icons for facebook, twitter xxx, youtube and instagram. The links open in a new tab.
+
+![Footer](assets/images/readme-imgs/footer.png)
 
 ### Potential Future Features
 
