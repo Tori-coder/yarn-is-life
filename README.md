@@ -49,7 +49,7 @@ The user is greeted with the hero image and hero text saying welcome to the site
 **Club Page**
 
 The club page includes locations and times of the crochet club meetups.
-There is also a form to join the mailing list to be informed of future club events.
+There is also a form to join the mailing list to be informed of future club events. (The form is a dummy one - at present it links merely to the Code Institute formdump page, but in future I hope to link it to a real database)
 
 **Patterns Page**
 
@@ -66,6 +66,7 @@ The footer contains icons for facebook, twitter xxx, youtube and instagram. The 
 
 It would be nice to add a third UX feature: Frequent Visitor Objectives - be able to submit own projects to be featured on the site.
 Work has begun on a "learn to crochet" page featuring original learn-to-crochet instructions and images, not linking to any external sites. It will need to be styled and a link to it added in the header.
+In future, the mailing list form will link to a database.
 
 ## UX
 
@@ -92,7 +93,19 @@ There was originally a youtube video embedded using an iframe in index.html. The
 
 ### Validation Testing
 
-HTML ([W3C Validator](https://validator.w3.org/))
+HTML and CSS
+
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
+[W3C jigsaw](https://jigsaw.w3.org/css-validator/)
+
+index.html - Passed.
+
+patterns.html - Passed.
+
+club.html - 0 errors, 1 warning: "The inputmode attribute is not supported in all browsers."
+The "inputmode=numeric" attribute was chosen to avoid using the "type=number" attribute (and thus avoid the increase/decrease arrows for the input box). Since the phone number is optional and even if entered as text would lead to no errors, this was considered acceptable.
+
+style.css - Passed, no errors found.
 
 CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
 
@@ -101,12 +114,23 @@ Chrome Developer Tools Lighthouse rating
 - Accessibility
 - Best Practices
 - SEO
-- Progressive Web App
-- ![Lighthouse Rating]()
+
+- ![Lighthouse Rating](assets/images/readme-imgs/lighthouse-report.png)
       
 ### Browser Testing
 
+| Browser   | Layout    | Functionality | 
+| :.......: | :.......: | :...........: |
+| Chrome    | ✔        | ✔             |
+| Edge      | ✔        | ✔             |
+| Firefox   | ✔        | ✔             |
+| Safari    | ✔        | ✔             |
+
+
 ### Manual Testing
+
+All links were clicked through and found to be correct.
+When information in the mailing list form is submitted via the submit button, it correctly shows as entered into the Code Institute formdump. The form cannot be submitted without completing the required fields.
 
 ## Deployment
 
