@@ -71,7 +71,9 @@ The footer contains icons for facebook, twitter xxx, youtube and instagram. The 
 ### Potential Future Features
 
 It would be nice to add a third UX feature: Frequent Visitor Objectives - be able to submit own projects to be featured on the site.
+
 Work has begun on a "learn to crochet" page featuring original learn-to-crochet instructions and images, not linking to any external sites. It will need to be styled and a link to it added in the header.
+
 In future, the mailing list form will link to a database.
 
 ## UX
@@ -116,21 +118,17 @@ style.css - Passed, no errors found.
 CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
 
 Chrome Developer Tools Lighthouse rating
-- Performance
-- Accessibility
-- Best Practices
-- SEO
 
-- ![Lighthouse Rating](assets/images/readme-imgs/lighthouse-report.png)
+![Lighthouse Rating](assets/images/readme-imgs/lighthouse-report.png)
       
 ### Browser Testing
 
 | Browser   | Layout    | Functionality | 
-| :.......: | :.......: | :...........: |
-| Chrome    | ✔        | ✔             |
-| Edge      | ✔        | ✔             |
-| Firefox   | ✔        | ✔             |
-| Safari    | ✔        | ✔             |
+| :--- | :---: | :---: |
+| Chrome | ✔ | ✔ |
+| Edge | ✔ | ✔ |
+| Firefox | ✔ | ✔ |
+| Safari | ✔ | ✔ |
 
 ### Manual Testing
 
