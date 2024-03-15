@@ -89,8 +89,8 @@ section {
 
   #hero-text-title {
     position: absolute; 
-    top: 39%; 
-    left: 31%; 
+    top: 37%; 
+    left: 30%; 
     right: 20%;
     max-width: 80px;
     font-family: brittanysignature;
@@ -101,11 +101,11 @@ section {
 
   #hero-text-container {
     position: absolute; 
-    top: 50%; 
-    left: 33%; 
-    right: 17%;
+    top: 48%; 
+    left: 31%; 
+    right: 16%;
     font-size: 12px;
-    width: 160px;
+    width: 162px;
   }
   
 /*hide overflow text for smaller screens*/
