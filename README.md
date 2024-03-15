@@ -101,23 +101,23 @@ There was originally a youtube video embedded using an iframe in index.html. The
 
 ### Validation Testing
 
-HTML and CSS
+#### HTML and CSS
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
-[W3C jigsaw](https://jigsaw.w3.org/css-validator/)
+
+[W3C jigsaw](https://jigsaw.w3.org/css-validator/) was used to validate the css.
 
 index.html - Passed.
 
 patterns.html - Passed.
 
 club.html - 0 errors, 1 warning: "The inputmode attribute is not supported in all browsers."
+
 The "inputmode=numeric" attribute was chosen to avoid using the "type=number" attribute (and thus avoid the increase/decrease arrows for the input box). Since the phone number is optional and even if entered as text would lead to no errors, this was considered acceptable.
 
 style.css - Passed, no errors found.
 
-CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
-
-Chrome Developer Tools Lighthouse rating
+#### Chrome Developer Tools Lighthouse rating
 
 ![Lighthouse Rating](assets/images/readme-imgs/lighthouse-report.png)
       
