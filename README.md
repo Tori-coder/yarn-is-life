@@ -74,6 +74,8 @@ It would be nice to add a third UX feature: Frequent Visitor Objectives - be abl
 
 Work has begun on a "learn to crochet" page featuring original learn-to-crochet instructions and images, not linking to any external sites. It will need to be styled and a link to it added in the header.
 
+There was originally a youtube video embedded using an iframe in index.html, which was later removed (see ["unfixed bugs"](#unfixed-bugs)). I will reintroduce the video after submission and am researching how to resolve the errors thrown up by the iframe. 
+
 In future, the mailing list form will link to a database.
 
 ## UX
@@ -94,6 +96,7 @@ In future, the mailing list form will link to a database.
 
 ### Fixed Bugs
 Hero image failed to load on first try. Html <img> element had href attribute instead of src attribute - amended.
+
 Latest projects section was unresponsive to screen size. Flexbox properties had been added to the wrong container div in html - fixed.
  
 ### Unfixed Bugs
@@ -142,22 +145,22 @@ The site was deployed on [github pages](https://tori-coder.github.io/yarn-is-lif
 ## CREDITS
 
 - Header and footer styled with reference to the Love Running walkthrough project by Code Institute
-- Social media icons from [fontawesome.com] (https://fontawesome.com/)
+- Social media icons from [fontawesome.com](https://fontawesome.com/)
 - BrittanySignature font from [befonts.com](https://befonts.com/brittany-signature-font.html)
-- Favicon generated using [favicon.io] (https://favicon.io/) using an image cropped from the hero image
+- Favicon generated using [favicon.io](https://favicon.io/) using an image cropped from the hero image
 - Model image of live website on different devices generated at [techsini.com](https://techsini.com/multi-mockup/index.php)
 - Images from [istock](https://www.istockphoto.com/)
 - Images converted using [cloudconvert.com](https://cloudconvert.com/webp-converter)
 - Images compressed using [imagecompressor.com](https://imagecompressor.com/)
 - Crochet tutorials and patterns (and their accompanying images) from: 
-[Handmade by Ani](https://handmadebyani.blogspot.com/)
-[The Woobles](https://thewoobles.com/)
-[Jewels and Jones](https://jewelsandjones.com/)
-[easycrochet.com](https://easycrochet.com/)
-[gatheringbeauty.com](https://www.gatheringbeauty.com/)
-[hanjancrochet.com](https://www.hanjancrochet.com/)
-[lovecrafts.com](https://www.lovecrafts.com/)
-[yarnspirations.com](https://www.yarnspirations.com/)
-[mycrochetpattern.com](https://mycrochetpattern.com/)
+[Handmade by Ani](https://handmadebyani.blogspot.com/),
+[The Woobles](https://thewoobles.com/),
+[Jewels and Jones](https://jewelsandjones.com/),
+[easycrochet.com](https://easycrochet.com/),
+[gatheringbeauty.com](https://www.gatheringbeauty.com/),
+[hanjancrochet.com](https://www.hanjancrochet.com/),
+[lovecrafts.com](https://www.lovecrafts.com/),
+[yarnspirations.com](https://www.yarnspirations.com/),
+[mycrochetpattern.com](https://mycrochetpattern.com/),
 [mijocrochet.se](https://mijocrochet.se/)
 - This README file was constructed using [advice](https://github.com/kera-cudmore/readme-examples) from Kera Cudmore 
