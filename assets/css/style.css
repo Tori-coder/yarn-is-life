@@ -207,20 +207,6 @@ section {
   justify-content: center;
 }
 
-.youtube-iframe-and-text {
-  overflow: hidden;
-  padding-top: 43%; /* aspect ratio not quite right but close */
-  position: relative;
-} 
-
-.youtube-iframe-and-text iframe {
-  position: absolute;
-  top: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /* style latest projects section */
 
 #latest-projects-container {
@@ -256,7 +242,6 @@ section {
   width: 100%;
   max-height: 300px;
 }
-
 
 /* style patterns page */
 
@@ -432,13 +417,13 @@ button {
 }
 
 
-/* Increase font sizes for desktop screens */
+/* Increase font sizes for smaller desktop screens */
 @media (min-width: 1024px) {
   /*header*/
   #header-navbar {
     font-size: 140%;
   }
-  /*hero text size and unhide text2 for smaller desktop screens*/
+  /*hero text size and unhide text2*/
   #hero-text-container {
     left: 28%;
     width: 650px;
@@ -452,7 +437,21 @@ button {
     padding-top: 15px;
     opacity: 1;
   }
-  /*hero text size and unhide text2 for larger desktop screens*/
+  /*aboutme font size and aboutme image*/
+  #about-me-text {
+    max-width: 400px;
+    font-size: 20px;
+  }
+  #me-pic {
+    max-width: 400px;
+  }
+  h2, #about-me h2, #learn-resources-text-title {
+    font-size: 20px;
+  }
+}
+
+/* increase hero text size and unhide text2 for larger desktop screens*/
+@media (min-width: 1200px) {
   #hero-text-container {
     top: 47%;
     left: 31%;
@@ -466,16 +465,5 @@ button {
   #hero-text-1, #hero-text-2, #hero-text-3 {
     padding-top: 15px;
     opacity: 1;
-  }
-  /*aboutme font size and aboutme image*/
-  #about-me-text {
-    max-width: 400px;
-    font-size: 20px;
-  }
-    #me-pic {
-      max-width: 400px;
-    }
-    h2, #about-me h2, #learn-resources-text-title {
-      font-size: 20px;
-    }
+  } 
 }
