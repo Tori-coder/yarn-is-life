@@ -36,9 +36,7 @@ The bar is designed to be one line, no collapse (no hamburger menu) regardless o
 ![Navigation Bar](assets/images/readme-imgs/nav-bar.png)
 
 ### Hero Image
-The hero image was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
-
-![Navigation Bar](assets/images/readme-imgs/hero-image-min.jpg)
+The [hero image](assets/images/readme-imgs/hero-image-min.jpg) was chosen for its natural colours and inviting depiction of yarn for crochet. The blank space near the centre of the image was used as a canvas for the hero text.
 
 ### Contents
 
@@ -46,15 +44,23 @@ The hero image was chosen for its natural colours and inviting depiction of yarn
 
 The user is greeted with the hero image and hero text saying welcome to the site. On smaller screens the About Me section is also visible. The home page also contains a Learn to Crochet section and a Latest Projects section.
 
+![Home Page](assets/images/readme-imgs/home-page.png)
+![About Me](assets/images/readme-imgs/about-me.png)
+![Learn to Crochet and Latest Projects](assets/images/readme-imgs/learn-latest-projects.png)
+
 **Club Page**
 
 The club page includes locations and times of the crochet club meetups.
 There is also a form to join the mailing list to be informed of future club events. (The form is a dummy one - at present it links merely to the Code Institute formdump page, but in future I hope to link it to a real database)
 
+![Club Page](assets/images/readme-imgs/club.png)
+
 **Patterns Page**
 
 This page includes live links to patterns available on other crochet pages. Links open in a new tab.
 Patterns are divided into Beginner, Intermediate and Advanced sections for easy navigation.
+
+![Patterns](assets/images/readme-imgs/patterns.png)
 
 ### Footer
 
@@ -139,12 +145,13 @@ The site was deployed on [github pages](https://tori-coder.github.io/yarn-is-lif
 
 - Header and footer styled with reference to the Love Running walkthrough project by Code Institute
 - Social media icons from [fontawesome.com] (https://fontawesome.com/)
+- BrittanySignature font from [befonts.com](https://befonts.com/brittany-signature-font.html)
 - Favicon generated using [favicon.io] (https://favicon.io/) using an image cropped from the hero image
 - Model image of live website on different devices generated at [techsini.com](https://techsini.com/multi-mockup/index.php)
 - Images from [istock](https://www.istockphoto.com/)
 - Images converted using [cloudconvert.com](https://cloudconvert.com/webp-converter)
 - Images compressed using [imagecompressor.com](https://imagecompressor.com/)
-- Crochet tutorials and patterns from: 
+- Crochet tutorials and patterns (and their accompanying images) from: 
 [Handmade by Ani](https://handmadebyani.blogspot.com/)
 [The Woobles](https://thewoobles.com/)
 [Jewels and Jones](https://jewelsandjones.com/)
