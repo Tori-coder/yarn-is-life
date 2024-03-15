@@ -126,7 +126,6 @@ Chrome Developer Tools Lighthouse rating
 | Firefox   | ✔        | ✔             |
 | Safari    | ✔        | ✔             |
 
-
 ### Manual Testing
 
 All links were clicked through and found to be correct.
@@ -134,18 +133,26 @@ When information in the mailing list form is submitted via the submit button, it
 
 ## Deployment
 
-The site was deployed on [Github Pages](https://tori-coder.github.io/yarn-is-life/) and on [netlify](https://yarnislife.netlify.app/) from the main branch. 
+The site was deployed on [github pages](https://tori-coder.github.io/yarn-is-life/) and on [netlify](https://yarnislife.netlify.app/) from the main branch. 
 
 ## CREDITS
 
 - Header and footer styled with reference to the Love Running walkthrough project by Code Institute
 - Social media icons from [fontawesome.com] (https://fontawesome.com/)
-- Favicon generated using [Favicon.io] (https://favicon.io/) using an image cropped from the hero image
+- Favicon generated using [favicon.io] (https://favicon.io/) using an image cropped from the hero image
 - Model image of live website on different devices generated at [techsini.com](https://techsini.com/multi-mockup/index.php)
 - Images from [istock](https://www.istockphoto.com/)
-- Images converted using [Cloudconvert.com](https://cloudconvert.com/webp-converter)
+- Images converted using [cloudconvert.com](https://cloudconvert.com/webp-converter)
 - Images compressed using [imagecompressor.com](https://imagecompressor.com/)
-- xxx list all the crochet pages here
+- Crochet tutorials and patterns from: 
+[Handmade by Ani](https://handmadebyani.blogspot.com/)
+[The Woobles](https://thewoobles.com/)
+[Jewels and Jones](https://jewelsandjones.com/)
+[easycrochet.com](https://easycrochet.com/)
+[gatheringbeauty.com](https://www.gatheringbeauty.com/)
+[hanjancrochet.com](https://www.hanjancrochet.com/)
+[lovecrafts.com](https://www.lovecrafts.com/)
+[yarnspirations.com](https://www.yarnspirations.com/)
+[mycrochetpattern.com](https://mycrochetpattern.com/)
+[mijocrochet.se](https://mijocrochet.se/)
 - This README file was constructed using [advice](https://github.com/kera-cudmore/readme-examples) from Kera Cudmore 
-
-
