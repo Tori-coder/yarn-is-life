@@ -334,17 +334,17 @@ section {
 }
 
 #abs-beginners {
-  background-image: url("../images/beginners-meetup.webp");
+  background-image: url("../images/meetup-imgs/beginners-meetup.webp");
 }
 
 #amigurumi {
-  background-image: url("../images/amigurumi.webp");
+  background-image: url("../images/meetup-imgs/amigurumi.webp");
   background-position: right center;
   background-size: 100%;
 }
 
 #stitchnbitch {
-  background-image: url("../images/stitchnbitch.webp");
+  background-image: url("../images/meetup-imgs/stitchnbitch.webp");
 }
 
 .club-form-container {
